@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Submit form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Shrey.jpg" alt="logo">
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Contact Form</h1>
+        <form action="#" id="form"> 
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            
+            <input type="text" name="number" id="number" placeholder="Enter your phone number" pattern="[789][0-9]{9}">
+            <textarea name="description" id="description" placeholder="Description" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+    </div>
+    <script defer src="script.js"></script>
+
+</body>
+</html>
